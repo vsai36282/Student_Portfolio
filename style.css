@@ -1,0 +1,96 @@
+
+img {
+    border-radius: 50%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+header {
+    background-color: #024e1c;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+.header-content h1 {
+    font-size: 2.5rem;
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    object-fit: cover;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+nav {
+    background-color: #027229;
+    color: #fff;
+    text-align: center;
+}
+nav ul {
+    list-style-type: circle;
+    padding: 0px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.section-content{
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+.download-button {
+    background-color: #027229;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.download-button:hover {
+    background-color: goldenrod;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #027229;
+    color: #fff;
+}
+ul {
+    list-style-type: lower-roman;
+    padding-left: 20px;
+}
+.top-botton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #027229;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+.top-botton:hover {
+    background-color: goldenrod;
+}
+.dark-mode {
+    background-color:#777;
+    color: #fff;
+}
